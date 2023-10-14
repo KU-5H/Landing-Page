@@ -1,0 +1,30 @@
+@font-face {
+    font-family: Hero;
+    src: url(https://fonts.adobe.com/fonts/new-hero);
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    background: #1f2937;
+}
+
+body {
+    font-family: Hero;
+}
+
+.header-logo {
+    padding-left: 64px;
+    font-size: 24px;
+    font-weight: 900;
+    color: #F9F1F8;
+}
+
+.header-text {
+    padding-right: 64px;
+    font-size: 18px;
+    color: #E5E7EB;
+
+    display: flex;
+    gap: 16px;
+}
