@@ -94,6 +94,12 @@ body {
     cursor: pointer;
 }
 
+.sign-up:hover {
+    background-color: white;
+    color: #3882F6;
+    border: 1px solid white;
+}
+
 .middle {
     display: flex;
     flex-direction: column;
