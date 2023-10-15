@@ -23,6 +23,7 @@ body {
     justify-content: space-between;
     background: #1f2937;
     padding-top: 16px;
+    flex-wrap: wrap;
 }
 
 .header-logo {
@@ -35,6 +36,7 @@ body {
 
 .header-text {
     padding-right: 64px;
+    padding-left: 64px;
     font-size: 18px;
     color: #E5E7EB;
     display: flex;
