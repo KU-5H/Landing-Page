@@ -14,16 +14,21 @@
     src: url('fonts/Araboto\ Bold\ 400.ttf');
 }
 
-body {
-    font-family: 'Hero Light Regular';
+
+/* Body */
+.body {
+
 }
 
+/* Header */
 .header {
     display: flex;
     justify-content: space-between;
     background: #1f2937;
     padding-top: 16px;
+    padding-bottom: 16px;
     flex-wrap: wrap;
+    position: sticky; top: 0;
 }
 
 .header-logo {
@@ -45,10 +50,12 @@ body {
     font-family: 'Courier New', Courier, monospace;
 }
 
+/* Main Title Page with Image */
+
 .startpage {
     display: flex;
     background: #1f2937;
-    padding: 64px;
+    padding: 64px 5%;
     justify-content: space-evenly;
     align-items: center;
     flex-wrap: wrap;
@@ -86,30 +93,40 @@ body {
     font-family: 'Araboto';
 }
 
-
 .sign-up {
-    background-color: #3882F6;
+    background-color: #1f2937;
     width: 123px;
     height: 30px;
     font-family: 'Araboto-bold';
     font-size: 16px;
     color: #E5E7EB;
-    border: 1px solid #3882F6;
+    border: 1px solid #F9FAF8;
     border-radius: 8px;
     cursor: pointer;
 }
 
 .sign-up:hover {
-    background-color: white;
-    color: #3882F6;
-    border: 1px solid white;
+    background-color: #F9FAF8;
+    color: #1f2937;
+    border: 1px solid #F9FAF8;
 }
+
+/* Section with multiple icons/widgets */
 
 .middle {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 24px;
+    padding-bottom: 96px;
+}
+
+.middle-title {
+    padding-top: 16px;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    font-family: 'Araboto';
 }
 
 .icons-and-text {
@@ -146,10 +163,93 @@ body {
 
 }
 
-.middle-title {
-    padding-top: 16px;
+/* Quote */
+.quote {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 96px;
+}
+
+.quote-text {
     font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    font-family: 'Araboto-light';
+    max-width: 75%;
+}
+
+.quote-person {
+    display: flex;
+    width: 75%;
+    justify-content: end;
+    font-size: 24px;
     font-weight: bolder;
     color: #1F2937;
     font-family: 'Araboto';
+}
+
+
+/* Call to Action */
+.action {
+    background-color: #3882F6;
+    margin: 96px 10%;
+    border-radius: 8px;
+    padding-top: 48px;
+    padding-bottom: 48px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    gap: 16px;
+}
+
+
+.action-text {
+    margin-left: 64px;
+}
+
+.action-title {
+    font-size: 24px;
+    color: #F9F1F8;
+    font-family: 'Araboto';
+}
+
+.action-description {
+    color: #F9F1F8;
+    font-family: 'Araboto-light';
+}
+
+.sign-up2 {
+    margin-right: 64px;
+    background-color: #3882F6;
+    width: 123px;
+    height: 30px;
+    font-family: 'Araboto-bold';
+    font-size: 16px;
+    color: #E5E7EB;
+    border: 1px solid #F9F1F8;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.sign-up2:hover {
+    background-color: white;
+    color: #3882F6;
+    border: 1px solid white;
+}
+
+/* Footer */
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    padding: 16px;
+}
+
+.footer-text {
+    color: #F9F1F8;
+    font-family: 'Araboto-light';
 }
