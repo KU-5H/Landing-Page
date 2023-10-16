@@ -16,8 +16,8 @@
 
 
 /* Body */
-.body {
-
+body {
+    margin: 0;
 }
 
 /* Header */
@@ -75,7 +75,7 @@
     height: 500px;
     border-radius: 32px;
     flex-shrink: 1;
-    max-width: 100%;
+    max-width: 75%;
     height: auto;
     flex-wrap: wrap;
 }
@@ -141,9 +141,10 @@
     display: flex;
     flex-direction: column;
     gap: 8px;
-    max-width: 165px;
-    max-height: 250px;
+    /* max-width: 165px;
+    max-height: 250px; */
     align-items: center;
+    justify-content: center;
 }
 
 .icon {
@@ -155,12 +156,17 @@
     border-radius: 16px;
 }
 
+.icon1 {
+    height: 352px;
+    width: 450px;
+    border-radius: 16px;
+}
+
 .icon-text {
     text-align: center;
     font-weight: bolder;
     color: #444546;
     font-family: 'Araboto-light';
-
 }
 
 /* Quote */
