@@ -69,12 +69,12 @@ body {
 /* Main Title Page with Image */
 
 .startpage {
+    background: #1f2937;
     display: flex;
     padding-bottom: 64px;
     justify-content: space-evenly;
     align-items: center;
     flex-wrap: wrap;
-    gap: 16px;
 }
 
 
@@ -129,7 +129,6 @@ body {
 /* Section with multiple icons/widgets */
 
 .middle {
-    background-color: #0d1218;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -141,7 +140,7 @@ body {
     padding-top: 16px;
     font-size: 36px;
     font-weight: bolder;
-    color: #F9F1F8;
+    color: #F9FAF8;
     font-family: 'Araboto';
 }
 
@@ -191,8 +190,9 @@ body {
 
 /* Quote */
 .quote {
-    margin-top: 64px;
-    background-color: #0d1218;
+    background-color: #F9FAF8;
+    background: rgb(162,17,193);
+    background: linear-gradient(315deg, rgba(162,17,193,1) 0%, rgba(14,72,142,1) 100%);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -202,7 +202,7 @@ body {
 .quote-text {
     font-size: 36px;
     font-style: italic;
-    color: #F9F1F8;
+    color: #F9FAF8;
     font-family: 'Araboto-light';
     max-width: 75%;
 }
@@ -213,7 +213,7 @@ body {
     justify-content: end;
     font-size: 24px;
     font-weight: bolder;
-    color: #E5E7EB;
+    color: #F9FAF8;
     font-family: 'Araboto';
 }
 
@@ -251,7 +251,7 @@ body {
     font-family: 'Araboto-light';
 }
 
-.sign-up2 {
+/* .sign-up2 {
     margin-right: 64px;
     background-color: #3882F6;
     width: 123px;
@@ -262,7 +262,7 @@ body {
     border: 1px solid #F9F1F8;
     border-radius: 8px;
     cursor: pointer;
-}
+} */
 
 .sign-up2:hover {
     background-color: white;
