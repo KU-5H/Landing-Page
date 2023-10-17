@@ -69,7 +69,6 @@ body {
 /* Main Title Page with Image */
 
 .startpage {
-    background: #1f2937;
     display: flex;
     padding-bottom: 64px;
     justify-content: space-evenly;
@@ -84,7 +83,6 @@ body {
     flex-direction: column;
     gap: 16px;
     flex: 0 1 1;
-    text-align: start;
     align-items: center;
 }
 
@@ -100,12 +98,26 @@ body {
     font-weight: bolder;
     color: #F9FAF8;
     font-family: 'Araboto';
+    /* background: -webkit-linear-gradient(315deg, rgb(194, 21, 233) 0%, rgb(21, 103, 202)100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; */
 }
 
 .titletext {
     font-weight: bolder;
     color: #E5E7EB;
     font-family: 'Araboto';
+    
+}
+
+/*     background: linear-gradient(315deg, rgba(162,17,193,1) 0%, rgba(14,72,142,1) 100%); */
+
+.studium {
+    background: -webkit-linear-gradient(315deg, rgb(194, 21, 233) 0%, rgb(21, 103, 202)100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    height: fit-content;
+    width: fit-content;
 }
 
 .sign-up {
@@ -129,6 +141,7 @@ body {
 /* Section with multiple icons/widgets */
 
 .middle {
+    background: rgba(13,18,24,1);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -251,9 +264,9 @@ body {
     font-family: 'Araboto-light';
 }
 
-/* .sign-up2 {
+.sign-up2 {
     margin-right: 64px;
-    background-color: #3882F6;
+    background-color: #1f2937;
     width: 123px;
     height: 30px;
     font-family: 'Araboto-bold';
@@ -262,12 +275,12 @@ body {
     border: 1px solid #F9F1F8;
     border-radius: 8px;
     cursor: pointer;
-} */
+}
 
 .sign-up2:hover {
-    background-color: white;
-    color: #3882F6;
-    border: 1px solid white;
+    background-color: #F9FAF8;
+    color: #1f2937;
+    border: 1px solid #F9FAF8;
 }
 
 /* Footer */
