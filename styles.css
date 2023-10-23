@@ -159,7 +159,7 @@ body {
 
 .icons-and-text {
     display: flex;
-    gap: 64px;
+    gap: 48px;
     max-width: 100%;
     justify-content: center;
     flex-wrap: wrap;
@@ -191,7 +191,10 @@ body {
 
     height: 352px;
     width: 450px;
+    border-style: solid;
     border-radius: 16px;
+    border-width: 2px;
+    border-color: #F9F1F8;
 }
 
 .icon-text {
