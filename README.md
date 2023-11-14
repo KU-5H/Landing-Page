@@ -4,7 +4,7 @@ A flexbox based website using HTML/CSS to create a mock sign-up website. It is i
 
 ![picture](https://github.com/KU-5H/Studium/blob/main/images/Screenshot%202023-11-13%20195353.png)
 
-View here: https://ku-5h.github.io/Landing-Page/
+View here: https://ku-5h.github.io/Studium/
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- Features -->
@@ -21,17 +21,17 @@ Meant as a mockup for a sign-up page. The layout can be used to create your own 
 
 For easier access:
 ```sh
-git@github.com:KU-5H/Landing-Page.git
+git@github.com:KU-5H/Studium.git
 ```
 
 To copy it to git, write:
 ```sh
-git clone git@github.com:KU-5H/Landing-Page.git
+git clone git@github.com:KU-5H/Studium.git
 ```
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 # Website
-You can view the website here: https://ku-5h.github.io/Landing-Page/
+You can view the website here: https://ku-5h.github.io/Studium/
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 # Technologies Used
