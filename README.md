@@ -35,7 +35,7 @@ You can view the website here: https://ku-5h.github.io/Landing-Page/
 # Technologies Used
 - **Languages:** HTML and CSS
 - **CSS Technologies:** Flexbox
-- **API's: ** IFrame API, Spotify IFrame API, IFrame Embed for Youtube
+- **API's:** IFrame API, Spotify IFrame API, IFrame Embed for Youtube
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 # Documentation
