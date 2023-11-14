@@ -4,14 +4,12 @@ A flexbox based website using HTML/CSS to create a mock sign-up website
 
 View here: https://ku-5h.github.io/Landing-Page/
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 <!-- Features -->
 # Features
 
 - **Interactive Modules:** Uses iframes to create interactive modules with Sportify and Youtube
 - **Adjustaable Layout:** Flexbox allows the website to be modular, and change it's dimensions based on the users screen size.
 - **Modern Design** Follows the "Golden Layout" and uses darker colours to be more modern and pleasent for the eyes.
-
 <!-- USAGE EXAMPLES -->
 # Usage
 Meant as a mockup for a sign-up page. The layout can be used to create your own webpage. To copy the repository, press the code button and copy the link. 
