@@ -2,7 +2,7 @@
 # Studium
 A flexbox based website using HTML/CSS to create a mock sign-up website. It is inspired by the Odin Projects <a href="https://www.theodinproject.com/lessons/foundations-landing-page" target="_blank">Landing-Page</a> assignment, following the layout provided. 
 
-<img src="images/Screenshot 2023-11-13 195353.png" alt="Website picture">
+![picture](https://github.com/KU-5H/Studium/blob/main/images/Screenshot%202023-11-13%20195353.png)
 
 View here: https://ku-5h.github.io/Landing-Page/
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
