@@ -26,6 +26,9 @@ git clone git@github.com:KU-5H/Landing-Page.git
 ```
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+# Website
+You can view the website here: https://ku-5h.github.io/Landing-Page/
+
 # Technologies Used
 - **Languages:** HTML and CSS
 - **CSS Technologies:** Flexbox
