@@ -2,13 +2,15 @@
 # Studium
 A flexbox based website using HTML/CSS to create a mock sign-up website. It is inspired by the Odin Projects <a href="https://www.theodinproject.com/lessons/foundations-landing-page" target="_blank">Landing-Page</a> assignment, following the layout provided. 
 
+<img src="images/Screenshot 2023-11-13 195353.png" alt="Website picture">
+
 View here: https://ku-5h.github.io/Landing-Page/
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- Features -->
 # Features
 
-- **Interactive Modules:** Uses iframes to create interactive modules with Sportify and Youtube
+- **Interactive Modules:** Uses iframes to create interactive modules with Spotify and Youtube
 - **Adjustaable Layout:** Flexbox allows the website to be modular, and change it's dimensions based on the users screen size.
 - **Modern Design** Follows the "Golden Layout" and uses darker colours to be more modern and pleasent for the eyes.
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
